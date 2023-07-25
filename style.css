@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list{
+    display:flex ;
+list-style-type: none;
+}6
+.docplanner-header{
+    display: flex;
+    justify-content: space-around;
+}
+.header-menu ul li{
+    margin-left: 25px;
+}
+a {
+    text-decoration: none;
+    color: #ababab;
+
+}
+.active {
+    color:#00b39b;
+
+
+}
+ .header-menu ul a:hover {
+    color:#00b39b
+ }
+ #logoo{
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.lead_logo h1 {
+    display: flex ;
+    justify-content:center ;
+    color: #00b39b ; 
+    margin-top: 1cm;
+} 
+
+
+.sekip {
+    display: flex;
+    justify-content: space-evenly;
+    margin :60px  0;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 17px;
+    color: #747474;
+}
+
+ 
+
+
+/* section2 */
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    margin: 70px 245px 20px 245px;
+    width: 66.666%;
+  }
+  
+  /* Patients */
+  .patients {
+    background-color: #00ccb1;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24.5%;
+    padding: 3.5%;
+    margin-right: 20px;
+  }
+  
+  .patients h2 {
+    color: white;
+    font-family: 'Work Sans', Arial, sans-serif;
+  }
+  
+  .selec select {
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    padding: 3%;
+  }
+  
+  .selec select option {
+    color: black;
+  }
+  
+  /* Doctors */
+  .doctor {
+    background-color: #3d83df;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24.5%;
+    padding: 3.5%;
+    margin-right: 20px;
+  }
+  
+  .doctor h2 {
+    color: white;
+    font-family: 'Work Sans', Arial, sans-serif;
+  }
+  
+  /* Clinics */
+  .clinics {
+    background-color: #1d1d1d;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24.5%;
+    padding: 3.5%;
+  }
+  
+  .clinics h2 {
+    color: white;
+    font-family: 'Work Sans', Arial, sans-serif;
+  }
+  
